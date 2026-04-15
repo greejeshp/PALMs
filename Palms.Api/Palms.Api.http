@@ -1,0 +1,6 @@
+@Palms.Api_HostAddress = http://localhost:5122
+
+GET {{Palms.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
