@@ -1,0 +1,38 @@
+# .NET
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.docuser
+out/
+.vs/
+.vscode/
+
+# Node.js
+node_modules/
+.next/
+dist/
+build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PALMS specific
+PALMS_Package.zip
+wwwroot/uploads/*
+!wwwroot/uploads/.gitkeep
+wwwroot/licenses/*
+!wwwroot/licenses/.gitkeep
+server_log.txt
+*.pdb
+*.exe
+*.dll
